@@ -1,4 +1,4 @@
-# Remove-CareerApp
+# Remove-GenkaiApp
 
 通常削除できないキャリアアプリをまとめて消去することができます。
 このスクリプトを実行するだけで簡単にクリーンなAndroid環境が作れます
@@ -18,14 +18,12 @@ MacOSまたはDebian派生のOS.
 
 Android端末でUSBデバッグを有効にしパソコンへ接続します。
 
-PCのターミナルでappremove.shを実行するとスクリプトが実行されます。
+PCのターミナルでgenkai.shを実行するとスクリプトが実行されます。
 
-例:) bash appremove.sh
+例:) bash genkai.sh
 
 表示されたアプリ一覧に問題がなければ「Y」を入力します。
 
 ![test](Docs/macremove.png)
 
-以下コマンドを使用すればgitからcloneすることなく実行することも可能です
 
-例:) bash <(curl -s https://raw.githubusercontent.com/Aoi-Developer/remove-career-app/main/appremove.sh)
