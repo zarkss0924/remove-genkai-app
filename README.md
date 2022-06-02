@@ -24,6 +24,4 @@ PCのターミナルでgenkai.shを実行するとスクリプトが実行され
 
 表示されたアプリ一覧に問題がなければ「Y」を入力します。
 
-![test](Docs/macremove.png)
-
-
+macOSの場合は sh genkai.sh
